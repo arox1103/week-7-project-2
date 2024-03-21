@@ -1,0 +1,126 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header__title {
+    margin: 0;
+  }
+  
+  .header__nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header__nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .header__nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .hero__headline {
+    margin: 0;
+  }
+  
+  .destinations {
+    margin: 50px 0;
+  }
+  
+  .destinations__title {
+    text-align: center;
+  }
+  
+  .destinations__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .destination {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .destination__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contact {
+    text-align: center;
+  }
+  
+  .contact__title {
+    margin-bottom: 20px;
+  }
+  
+  .contact__form input,
+  .contact__form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contact__form textarea {
+    height: 100px;
+  }
+  
+  .contact__submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .footer__contact,
+  .footer__social {
+    margin-bottom: 20px;
+  }
+  
+  .footer__social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__social li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer__social a {
+    color: #fff;
+  }
